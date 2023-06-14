@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100vw;
+    
+
+}
+.heading{
+    background-image: url(images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    
+    height: 60vh;
+    width: 100vw;
+    
+}
+
+.heading .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 138px 0px;
+}
+.heading .navbar a{
+    margin-right: 30px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.heading .navbar a:hover{
+    border-bottom: 3px solid white;
+}
+.heading .topic{
+    border: 5px solid white;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    width: 50%;
+    margin: 111px 138px 72px;
+    padding: 1.6rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.hero{
+    margin: 11rem 138px;
+    margin-bottom: 100px;
+    height: 50vh;
+}
+.hero .img{
+    z-index: -1;
+}
+.hero .para{
+    position: relative;
+    width: 50%;
+    background-color: white;
+    padding: 5rem;
+    bottom: 20rem;
+    left: 540px;
+}
+.para h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+     font-family: 'Josefin Sans', sans-serif;
+     line-height: 1.3;
+}
+.para p{
+    font-size: 15px;
+ font-family: 'Josefin Sans', sans-serif;
+ font-weight: 700;
+ color:hsl(0, 0%, 55%) ;
+ line-height: 1.4;
+ margin-top: 20px;
+}
+.creat{
+    margin:  111px 138px 72px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.head h2{
+    font-size: 3.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+.head button{
+    text-transform: uppercase;
+    background-color: #fff;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-top: 4px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.head button:hover{
+    background-color: black;
+    color: #fff;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+.two
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+.card{
+    width: 280px;
+    height: 500px;
+}
+.card:hover{
+    opacity: 0.6;
+}
+.card span{
+    position: relative;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    top: 360px;
+    bottom: auto;
+    left: 15px;
+    color: #fff;
+}
+ .one .Deep{
+    background-image: url(images/desktop/image-deep-earth.jpg);
+    background-size: cover;
+}
+.one .Night{
+    background-image: url(images/desktop/image-night-arcade.jpg);background-size: cover;
+}
+.one .Soccer{
+    background-image: url(images/desktop/image-soccer-team.jpg);background-size: cover;
+}
+.one .grid{
+    background-image: url(images/desktop/image-grid.jpg);background-size: cover;
+}
+.two .From{
+    background-image: url(images/desktop/image-from-above.jpg);
+    background-size: cover;
+}
+.two .Pocket{
+    background-image: url(images/desktop/image-pocket-borealis.jpg);
+    background-size: cover;
+}
+.two .curiosity{
+    background-image: url(images/desktop/image-curiosity.jpg);
+    background-size: cover;
+}
+.two .Make{
+    background-image: url(images/desktop/image-fisheye.jpg);
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    margin-top: 8rem;
+    padding: 5rem;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+.logo img:hover{
+    border-bottom: 3px solid white;
+}
+footer p{
+    color: hsl(0, 0%, 41%);
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 700;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.last .item a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:  'Josefin Sans', sans-serif;
+    text-decoration: none;
+    margin-right: 25px;
+    padding-bottom: 10px;
+}
+.last .item a:hover{
+    border-bottom: 3px solid white;
+}
